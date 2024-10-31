@@ -42,5 +42,8 @@ dependencies {
     implementation(libs.compose.ui.tooling.preview)
     implementation(libs.compose.material3)
     implementation(libs.androidx.activity.compose)
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0")
     debugImplementation(libs.compose.ui.tooling)
+
+
 }
